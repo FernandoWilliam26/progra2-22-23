@@ -4,17 +4,17 @@ public class BankAccount {
     private double amount;
 
     //todo Constructor
-    public BankAccount(String titularX,double amountX){
+    public BankAccount(String titular,double amount){
 
-        titular = titularX;
+        this.titular = titular;
 
         if(amount<0){
 
-        amount= 0;
+        this.amount = 0;
 
         }else{
 
-        amount = amountX;
+        this.amount = amount;
 
         }
     }
@@ -24,7 +24,7 @@ public class BankAccount {
 
         if(amount>0){
 
-            this.amount+=amount;
+            this.amount += amount;
 
         }
     }
