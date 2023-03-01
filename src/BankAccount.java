@@ -2,7 +2,6 @@ public class BankAccount {
     //todo Attributes
     private String titular;
     private double amount;
-
     //todo Constructor
     public BankAccount(String titular,double amount){
 
@@ -18,7 +17,6 @@ public class BankAccount {
 
         }
     }
-
     //todo Method Deposit
     public void deposit(double amount){
 
